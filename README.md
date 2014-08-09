@@ -1,5 +1,4 @@
-Getting and Cleaning Data
-=========================
+#Getting and Cleaning Data
 # Project 
 ## Author : Emilia
 
@@ -19,16 +18,10 @@ Data from following files were loaded:
 * "subject_train.txt"
 
 ### 2. Data merging
-Train and test data were merged by rows: 
-
-1. First ordered list item
-2. Another item
-3. +'y_test.txt'+
-4. +'subject_test.txt'+ .
-
-1. +'X_test.txt'+ was merged with +'X'+
-2. +"y_test.txt"+ was merged with +"y_train.txt"+
-3. +"subject_test.txt"+ was merged with +"subject_train.txt"+
+Train and test data were merged by rows:
+1. *_'X_test.txt'_* with *_'X_train.txt'_*
+2. *_"y_test.txt"_* with *_"y_train.txt"_*
+3. *_'subject_test.txt'_* with *_"subject_train.txt"_*
 
 ### 3. Data subsetting
 Features related only to average and standard deviation were extracted. First, list of features were search for substrings: "mean" and "std". Next, data frame with variables realted to founded features was created. For each subject and for each activity type average for every signal was calculated. Finally, activity labels (1-6) were change to descriptive variable names.
