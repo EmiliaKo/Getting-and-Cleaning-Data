@@ -20,7 +20,7 @@ Data from following files were loaded:
 
 ### 2. Data merging
 Train and test data were merged by rows: 
-1. +"X_test.txt"+ was merged with +"X_train.txt"+
+1. +'X_test.txt'+ was merged with +'X'+
 2. +"y_test.txt"+ was merged with +"y_train.txt"+
 3. +"subject_test.txt"+ was merged with +"subject_train.txt"+
 
