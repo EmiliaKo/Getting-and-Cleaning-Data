@@ -20,11 +20,11 @@ Data from following files were loaded:
 ### 2. Data merging
 Train and test data were merged by rows:
 
-- *'X_test.txt'* with *'X_train.txt'*
+- data from *'X_test.txt'* file with *'X_train.txt'* file
 
-- *'y_test.txt'* with *'y_train.txt'*
+- data from *'y_test.txt'* file with *'y_train.txt'* file
  
-- *'subject_test.txt'* with *'subject_train.txt'*
+- data from *'subject_test.txt'* file with *'subject_train.txt'* file
 
 ### 3. Data subsetting
 Features related only to average and standard deviation were extracted. First, list of features were search for substrings: "mean" and "std". Next, data frame with variables realted to founded features was created. For each subject and for each activity type average for every signal was calculated. Finally, activity labels (1-6) were change to descriptive variable names.
