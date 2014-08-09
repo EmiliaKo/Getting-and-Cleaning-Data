@@ -42,6 +42,7 @@ For each activity:
 * SITTING
 * STANDING
 * LAYING
+
 and for each subject: idetifiers for 1 - 30 average for each feature was calculated. Data consists of 79 features related to mean and standard deviation. The following table describe each column in clean data.
 
 |feature index  |feature name	                |	description	                                                                   			|
