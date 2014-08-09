@@ -1,9 +1,7 @@
 
 CodeBook 
-
 ==================================================================
-
-# Human Activity Recognition Using Smartphones Dataset Version 1.0
+## Human Activity Recognition Using Smartphones Dataset Version 1.0
 
 
 
@@ -12,13 +10,9 @@ CodeBook
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities:
 
 * WALKING, 
-
 * WALKING_UPSTAIRS, 
-
 * WALKING_DOWNSTAIRS, 
-
 * SITTING, STANDING, 
-
 * LAYING 
 
 wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular 
@@ -39,38 +33,28 @@ obtained by calculating variables from the time and frequency domain. See 'featu
 
 
 
-## Raw data:
+### Raw data:
 
-
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-
-- Triaxial Angular velocity from the gyroscope. 
-- A 561-feature vector with time and frequency domain variables. 
-
-- Its activity label. 
-
-- An identifier of the subject who carried out the experiment.
+* Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+* Triaxial Angular velocity from the gyroscope. 
+* A 561-feature vector with time and frequency domain variables. 
+* Its activity label. 
+* An identifier of the subject who carried out the experiment.
 
 
 
-## Tidy dataset:
+### Tidy dataset:
 
 The dataset includes the following files:
-
-- 'README.md'  : performed data cleaning
-
-- 'CodeBook.md': data description file
-
-- 'data.txt'   : tidy data
+* 'README.md'  : performed data cleaning
+* 'CodeBook.md': data description file
+* 'data.txt'   : tidy data
 
 
 
-## Tidy data:
-
-==========
+### Tidy data:
 
 For each activity:
-
 * WALKING
 * WALKING_UPSTAIRS
 * WALKING_DOWNSTAIRS
@@ -79,9 +63,7 @@ For each activity:
 * LAYING
 and for each subject: idetifiers for 1 - 30 average for each feature was calculated. 
 
-Data 
-
-consists of 79 features related to mean and standard deviation:
+Data consists of 79 features related to mean and standard deviation:
 
 
 |feature index  |feature name	                |	description	                                                                   			|
@@ -167,15 +149,15 @@ consists of 79 features related to mean and standard deviation:
 |	79	|fBodyBodyGyroJerkMag-std()	|frequency domain the magnitude of Jerk  body gyroscope signals (standard deviation)				|
 
 
-Notes: 
-======
+### Notes: 
+
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
-License:
-========
+### License:
+
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
