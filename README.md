@@ -19,6 +19,7 @@ Data from following files were loaded:
 
 ### 2. Data merging
 Train and test data were merged by rows:
+
 1. *_'X_test.txt'_* with *_'X_train.txt'_*
 2. *_"y_test.txt"_* with *_"y_train.txt"_*
 3. *_'subject_test.txt'_* with *_"subject_train.txt"_*
